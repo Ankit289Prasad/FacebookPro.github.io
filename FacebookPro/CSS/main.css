@@ -1,0 +1,91 @@
+        * {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        } 
+    
+    .head {
+        position: absolute;
+        top: 0px;
+        height: 85px;
+        left: 0px;
+        right: 0px;
+        background-color: rgb(0, 0, 0);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+        border-bottom: 0.8px solid rgb(231, 226, 226);
+        overflow-x: hidden;
+    }
+    
+    body,html {
+        height: 100%;
+        background-attachment: fixed;
+    }
+
+    .head img {
+        width: 170px;
+        height: 32px;
+        margin-left: 185px;
+        margin-top: 32px;
+    }
+    
+    .head p {
+        color: beige;
+        margin-top: -47px;
+        margin-left: 790px;
+        font-size: 76%;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 105%;
+    }
+    
+    .head input[type=text] {
+        margin-top: 5px;
+        width: 10.3%;
+        border: none;
+        height: 25%;
+    }
+    
+    .head input[type=password] {
+        margin-top: 5px;
+        width: 10.3%;
+        border: none;
+        height: 25%;
+    }
+    
+    .head input[type=submit]{
+        color: white;
+        border: none;
+        background-color: rgb(63, 61, 61);
+        border: 0.8px solid rgb(255, 255, 255);
+        height: 25%;
+        padding-left: 2px;
+        padding-right: 2px;
+        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+    }
+    
+    .head a {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(179, 174, 174, 0.904);
+        font-size: 76%;
+        margin-left: 957px;
+        top: 5px;
+    }
+    
+    .left {
+        position: absolute;
+       background-image: linear-gradient(rgb(173, 173, 173),rgb(243, 241, 241),rgb(226, 226, 226),rgb(221, 219, 219),rgb(189, 189, 189),rgb(173, 173,173));
+        left: 0px;
+        top: 85px;
+        right: 400px;
+        height: 562px;
+    }
+    .right {
+        position: absolute;
+       background-image: linear-gradient(rgb(173, 173, 173),rgb(243, 241, 241),rgb(226, 226, 226),rgb(221, 219, 219),rgb(189, 189, 189),rgb(173, 173,173));
+        left: 770px;
+        top: 85px;
+        right: 0px;
+        height: 562px;
+        border-left: 1px solid wheat;
+    }
