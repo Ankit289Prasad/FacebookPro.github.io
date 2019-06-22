@@ -4,7 +4,7 @@
     position: relative;
     } 
  @media only screen and(max-width:768px){
-   [class*="col-"]{
+   .head{
             width: 100%;
   }
 }
@@ -24,8 +24,8 @@
 .head img {
     width: 12.4%;
     height: 32px;
-    margin-left: 13.5%;
-    margin-top: 32px;
+    margin-left:-780px;
+    margin-top: 30px;
 }
 
 .head table{
@@ -86,4 +86,16 @@
     top: 85px;
     right: 0px;
     height: 87%;
+}
+.left img{
+    width: 537px;
+    height: 220px;
+    margin-top: 10px;
+    margin-left: 21.5%;
+}
+.left p{
+    margin-top: 58px;
+    margin-left: 22.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 135%;
 }
