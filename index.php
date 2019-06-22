@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Facebook Pro-Log in or Sign up</title>
     <link rel="icon" href="pro.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="CSS/mai.css">
 </head>
 
 <body>
@@ -33,14 +33,16 @@
         <p><b>Facebook helps you connect and share with the<br /> peoples in your life.</b></p>
         <img src="Assets/Images/left.png" />
     </div>
-    <div class="right">
-        <p><b>Create an account</b>
-            <br />It's free and always will be.</p>
-        <input type="text" class="first" placeholder="First name">
-        <input type="text" class="first" placeholder="Surname"><br />
-        <input type="text" class="second" placeholder="Mobile number or email address" name="userName"><br />
-        <input type="password" class="second" placeholder="New password" name="Password"><br/><br/>
-        <b>Birthday</b><br/>
+    <div class="right"><br/>
+        <span style="font-size:230%;"><b>Create an account</b></span><br/>
+            <br /><span style="font-size:130%;">It's free and always will be.</span><br/>
+            
+        <span style="width:50%;"><input type="text" placeholder="First name"></span>&nbsp;
+        <span style="width:50%;"><input type="text" placeholder="Surname"></span>
+       <input type="email" placeholder="Mobile number or email address" name="userName"><br/>
+        <input type="password" placeholder="New password" name="Password"><br/><br/>
+        
+        <span style="color:rgb(63,63,80)"><b>Birthday</b></span><br />
         <select id="date">
             <option value="01">01</option>
             <option value="02">02</option>
@@ -119,15 +121,16 @@
             <option value="2017">2017</option>
             <option value="2018">2018</option>
             <option value="2019">2019</option>
-        </select><br/>
-        <b>Gender</b><br/>
-        <input name="gender" type="radio" value="Male" />Male
-        <input name="gender" type="radio" value="Female"/>Female
-        <input name="gender" type="radio" value="Female"/>Others
-        <p id="term">By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. 
-            You may receive SMS notifications from us and can opt out at any time.</p><br/>
-         <a href="./Assets/Check.php"><input type="button" value="Sign Up"/></a><br/>
-         <p id="footer">&copy; Ankit Prasad : 2019</p>  
+        </select><br/><br />
+        <span style="color:rgb(63,63,80);"><b>Gender</b></span><br />
+        &nbsp&nbsp<input name="gender" type="radio" value="Male" /><label style="font-size:19px">&nbspMale</label>&nbsp&nbsp
+        &nbsp&nbsp<input name="gender" type="radio" value="Female" /><label style="font-size:19px">&nbspFemale</label>&nbsp&nbsp
+        &nbsp&nbsp<input name="gender" type="radio" value="Female" /><label style="font-size:19px">&nbspOthers</label><br/><br/>
+        <p style="font-size:74%;">By clicking Sign Up, you agree to our <span style="color:blue;">Terms, Data Policy</span>and<br/>
+         <span style="color:blue;">Cookie Policy.</span>
+            You may receive SMS notifications from us and <br/>can opt out at any time.</p><br/>
+        <a href="./Assets/Check.php"><input type="button" value="Sign Up" /></a><br/><br/><br/>
+        <p id="footer">&copy; Ankit Prasad : 2019</p>
     </div>
 </body>
 
