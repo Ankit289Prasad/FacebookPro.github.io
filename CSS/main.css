@@ -89,8 +89,8 @@
     height: 87%;
 }
 .left img{
-    width: 537px;
-    height: 220px;
+    width: 70%;
+    height: 39%;
     margin-top: 10px;
     margin-left: 21.5%;
 }
@@ -138,7 +138,7 @@
     -webkit-transform: scale(1.0);
     transform: scale(1.0);
 }
-.right input[type=button]{
+.right input[type=submit]{
     height: 7%;
     width: 35%;
     font-size: 120%;
