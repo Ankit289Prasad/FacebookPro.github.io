@@ -4,11 +4,14 @@
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
     } 
- @media only screen and(max-width:768px){
-   .head  .left .right{
-            width: 100%;
-  }
-}
+    body,html {
+        height: 100%;
+        background-attachment: fixed;
+        overflow: hidden;
+    }
+    .left label{
+        width:89px;
+    }
 
 .head {
     position: absolute;
@@ -16,16 +19,15 @@
     height: 85px;
     left: 0px;
     right: 0px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0) !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     border-bottom: 0.8px solid rgb(231, 226, 226);
-    overflow-x: hidden;
 }
 
 .head img {
     width: 12.4%;
     height: 32px;
-    margin-left:-780px;
+    left: -780px;
     margin-top: 30px;
 }
 
@@ -76,17 +78,19 @@
     position: absolute;
    background-image: linear-gradient(rgb(173, 173, 173),rgb(243, 241, 241),rgb(226, 226, 226),rgb(221, 219, 219),rgb(189, 189, 189),rgb(173, 173,173));
     left: 0px;
-    top: 85px;
+    top: 13%;
     right: 44%;
     height: 87%;
+    overflow: hidden;
 }
 .right {
     position: absolute;
    background-image: linear-gradient(rgb(173, 173, 173),rgb(243, 241, 241),rgb(226, 226, 226),rgb(221, 219, 219),rgb(189, 189, 189),rgb(173, 173,173));
     left:56%;
-    top: 85px;
+    top: 13%;
     right: 0px;
     height: 87%;
+    overflow: auto;
 }
 .left img{
     width: 70%;
@@ -152,10 +156,124 @@
 .right select{
     margin-top: 7px;
     height: 5%;
-    width: 12%;
-    position: relative;
+    width: 13%;
     padding: 0px;
+    margin-left: 10px;
 }
 ::placeholder{
     font-size: 95%;
+}
+
+/*////////Responsive Query ////////////*/
+
+@media only screen and (max-width:1200px){
+    .head img{
+        width: 13.5%;
+        padding: 0 22%;
+    }
+}
+@media only screen and (max-width:968px){
+    .head img{
+        width: 14.5%;
+        padding: 0 40%;
+    }
+}
+@media only screen and (max-width:716px){
+    .head img{
+        width: 19.5%;
+        padding: 0 78%;
+    }
+}
+@media only screen and (max-width:300px){
+    .head img{
+        width: 36.5%;
+        padding: 0 90%;
+    }
+}
+
+@media only screen and (max-width:510px){
+    .head img{
+        padding:0 450px;
+        width: 36%;
+    }
+    .head table{
+        padding-right: 3px;
+        margin-left: 205px; 
+        margin-top: -45px;
+    }
+    .right{
+        overflow-y: scroll;
+    }
+    ::placeholder{
+        font-size: 80%;
+    }
+    .right input[type=submit]{
+        height: 5.2%;
+        width: 37%;
+        font-size: 80%;
+    }
+    .right input[type=text] {
+        height: 6%;
+        margin-top: 7px;
+        font-size: 110%;
+        width: 90%;
+        height: 40px;
+    }
+    .right input[type=password] {
+        height: 6%;
+        margin-top: 7px;
+        font-size: 110%;
+        width: 90%;
+        height: 40px;
+    }
+    .right input[type=email] {
+        height: 6%;
+        margin-top: 7px;
+        font-size: 90%;
+        width: 90%;
+        height: 40px;
+    }
+}
+@media only screen and (max-width:480px){
+    .head img{
+        padding:0 559px;
+        width: 33%;
+    }
+    .head table{
+        margin-right: 3px;
+        margin-left: 135px; 
+        margin-top: -40px;
+        border-collapse: collapse;
+    }
+    .head a{
+        margin-left: 225px;
+    }
+    .left{
+        right: 47%;
+    }
+    .right{
+        left:53%;
+    }
+    .left label{
+        font-size: 10px;
+    }
+    .left img{
+        width: 100%;
+        height: 28%;
+        margin-top: 10px;
+        margin-left: 3.5%;
+    }
+    .right select{
+        margin-top: 7px;
+        height: 5%;
+        width: 33%;
+        margin-left: -10px;
+    }
+    .left p{
+        margin-top: 58px;
+        margin-left: 4.5%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 90%;
+        margin-right: 2%;
+    }
 }
