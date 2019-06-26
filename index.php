@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=0">
-    <title>Facebook Pro-Log in or Sign up</title>
-    <link rel="icon" href="pro.ico" type="image/x-icon">
+    <title>Facebook Log in or Sign up</title>
+    <link rel="icon" href="facebook.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="CSS/main.css">
 </head>
 
@@ -35,7 +35,7 @@
         <p id="footer" style="font-size:80%; top:27%;" >&copy; Ankit Prasad : 2019</p>
     </div>
     <div class="right"><br />
-        <span style="font-size:230%;"><b>Create an account</b></span><br />
+        <span style="font-size:230%; color:rgb(27,27,27);"><b>Create an account</b></span><br />
         <br /><span style="font-size:130%;">It's free and always will be.</span><br />
         <form action="./Assets/Check.php" method="post">
             <span style="width:50%;"><input type="text" placeholder="First name"></span>&nbsp;

@@ -21,20 +21,20 @@ html {
     height: 85px;
     left: 0px;
     right: 0px;
-    background-color: rgb(0, 0, 0) !important;
+    background-color: rgb(59,89,152) !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     border-bottom: 0.8px solid rgb(231, 226, 226);
 }
 
 .head img {
     width: 12.4%;
-    height: 32px;
+    height: 34px;
     left: -780px;
     margin-top: 30px;
 }
 
 .head table {
-    color: beige;
+    color: rgb(255, 255, 255);
     margin-top: -47px;
     margin-left: 57.8%;
     font-size: 76%;
@@ -56,12 +56,12 @@ html {
 .head input[type=submit] {
     color: white;
     border: none;
-    background-color: rgb(63, 61, 61);
-    border: 0.8px solid rgb(255, 255, 255);
+    background-color: rgb(70, 101, 167);
+    border: 0.8px solid rgb(40, 61, 105);
     height: 70%;
-    padding-left: 2px;
-    padding-right: 2px;
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.295);
     border-radius: 2px;
     margin-left: -10px;
     height: 100%;
@@ -70,7 +70,7 @@ html {
 .head a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgba(179, 174, 174, 0.904);
+    color: rgb(179, 195, 230);
     font-size: 76%;
     margin-left: 70%;
     top: 5px;
@@ -78,17 +78,17 @@ html {
 
 .left {
     position: absolute;
-    background-image: linear-gradient(rgb(173, 173, 173), rgb(243, 241, 241), rgb(226, 226, 226), rgb(221, 219, 219), rgb(189, 189, 189), rgb(173, 173, 173));
+    background-image: linear-gradient(rgb(223,227,238),rgb(247,247,247),white,rgb(247,247,247),rgb(223,227,238));
     left: 0px;
     top: 85px;
     right: 44%;
     height: 87%;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .right {
     position: absolute;
-    background-image: linear-gradient(rgb(173, 173, 173), rgb(243, 241, 241), rgb(226, 226, 226), rgb(221, 219, 219), rgb(189, 189, 189), rgb(173, 173, 173));
+    background-image: linear-gradient(rgb(223,227,238),rgb(247,247,247),white,rgb(247,247,247),rgb(223,227,238));
     left: 56%;
     top: 85px;
     right: 0px;
