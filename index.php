@@ -2,10 +2,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=0">
     <title>Facebook Pro-Log in or Sign up</title>
     <link rel="icon" href="pro.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="CSS/mai.css">
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
 </head>
 
 <body>
